@@ -1,5 +1,4 @@
 import {z, defineCollection} from "astro:content";
-import {format} from "date-fns";
 
 const postsCollection = defineCollection({
     schema: z.object({
